@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    	<meta charset="UTF-8">
+    	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+    	<title>NEIVY | Portfolio</title>
+    	<link rel="stylesheet" href="htmlstyles.css">
+</head>
+<body>
+    	<header>
+		<h1>NEIVY</h1>
+		<nav>
+			<ul>
+				<li><a href="#contact">Contact us</a></li>
+			<ul>
+		</nav>
+		
+    	</header>
+
+    <main>
+        <section id="intro_hp" class="intro-section">
+            <h1>Software Solutions for Business Problems</h1>
+            <p>We help businesses scale through innovative software solutions designed to tackle unique challenges and drive growth. Our tailored approach ensures that each solution fits your specific needs, enhancing efficiency and adaptability. Partner with us to unlock new opportunities and realize your full potential. Together, we’ll turn obstacles into opportunities and fuel your path to success. Let’s embark on a journey of transformation and growth.</p>
+	    <a href="#services" class="small-button">Find Out More</a>
+        </section>
+
+
+	<div class="container">
+	    <section id="services">
+		<h1>Services</h1>
+		<p>We propel your business forward with custom application development, tailored software for efficiency, and comprehensive data analysis for informed decision-making. Our expert web development team creates dynamic, user-friendly websites that enhance your online presence and drive conversions. Leveraging these services boosts your operational efficiency, strategic insights, and digital impact. Ready to take the next step? Click the button below to fill out our questionnaire and let us know how we can best support your business needs.</p>
+		<a href="#questionnaire" class="small-button">Questionnaire</a>
+	    </section>	
+	    
+	    <!-- Collapsible Section -->
+            <section id="collapsible-section">
+                <div class="collapsible-container">
+                    <button class="collapsible">Custom Applications</button>
+                    <div class="content">
+                        <p>Tailored to your unique needs, our solutions streamline processes, boost efficiency, and enhance user experience, giving you a competitive edge. We build robust, scalable software that grows with your business.</p>
+                    </div>
+
+                    <button class="collapsible">Data Analysis</button>
+                    <div class="content">
+                        <p>We transform raw data into actionable insights, enabling you to make informed decisions that drive growth. Using advanced tools, we analyze trends, optimize operations, and uncover opportunities, giving your business a competitive edge.</p>
+                    </div>
+
+                    <button class="collapsible">Web Development</button>
+                    <div class="content">
+                        <p>We create stunning, responsive websites that not only look great but are also optimized for performance and conversion. From sleek designs to seamless functionality, our websites are built to engage users, enhance your brand, and drive business growth.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+	<section id="ethos">
+            <h1>Our Ethos</h1>
+            <p class="triangle-paragraph">
+                <span>In order to excel, you have to focus on the essentials and eliminate distractions. At Neivy, we prioritise clarity and simplicity in our approach, ensuring that every</span>
+                <span>solution we create is aligned with your core business objectives. We believe in the power of innovation driven by purpose, and our team is</span>
+                <span>dedicated to delivering high-quality, impactful results. By cutting through the noise and concentrating on what truly matters, we</span>
+                <span>help businesses achieve their goals more efficiently and effectively. Our commitment to excellence means</span>
+                <span>we are continuously refining our methods and embracing new technologies to provide you with the best possible outcomes.</span>
+            </p>
+        </section>
+
+	<div class="container">
+	<section id="process-slideshow" class="slideshow-section">
+    		<div class="slideshow-caption">
+        		<h2>Our Process</h2>
+        		<p>Our process is designed to ensure that every project we undertake is tailored to meet your unique business needs. By working closely with you at each stage, we guarantee a smooth, transparent journey from initial consultation to the final delivery of your custom software solution. Here’s how we turn your vision into reality. </p>
+    		</div>
+	</section>
+	<section id="process-slideshow" class="slideshow-section">
+    <div class="slideshow-container">
+        <!-- Slide 1 -->
+        <div class="mySlides fade">
+            <img src="Consultation.jpg" style="width:80%">
+            <div class="text">Step 1: Consultation</div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="mySlides fade">
+            <img src="Planning.jpg" style="width:80%">
+            <div class="text">Step 2: Design</div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="mySlides fade">
+            <img src="Development.jpg" style="width:80%">
+            <div class="text">Step 3: Development</div>
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="mySlides fade">
+            <img src="Testing.jpg" style="width:100%">
+            <div class="text">Step 4: Testing</div>
+        </div>
+
+        <!-- Slide 5 -->
+        <div class="mySlides fade">
+            <img src="Go live.jpg" style="width:100%">
+            <div class="text">Step 5: Delivery</div>
+        </div>
+
+
+        <!-- Navigation dots -->
+        <div class="dot-container">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+</section>
+</div>
+
+
+
+     
+    </main>
+
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="contact.php" method="post">
+            <input type="text" id="name" name="name" placeholder="Name" required>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <textarea id="message" name="message" rows="8" placeholder="Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+    <section id="questintroduction">
+    	<h1>Welcome to Our Client Questionnaire</h1>
+	<p>Thank you for considering our software solutions to help grow your business. To better understand your needs and provide you with the most tailored service possible, we kindly ask you to complete the following questionnaire. Your responses will help us design and implement solutions that align perfectly with your business goals and challenges.</p>
+    </section>
+
+
+<section id="questionnaire-container">
+    <section id="questionnaire">
+    <h1>Tell Us About Your Business</h1>
+    <form action="submit_questionnaire.php" method="post">
+
+        <div class="questionnaire-item">
+            <label for="company-name">1. What is the name of your company?</label>
+            <input type="text" id="company-name" name="company_name" placeholder="Enter your company name" required>
+        </div>
+
+        <div class="questionnaire-item">
+            <label for="industry">2. Which industry does your business operate in?</label>
+            <input type="text" id="industry" name="industry" placeholder="e.g., Healthcare, Retail, Finance, etc." required>
+        </div>
+
+        <div class="questionnaire-item">
+            <label for="company-size">3. What is the size of your company?</label>
+            <select id="company-size" name="company_size" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="1-10">1-10 employees</option>
+                <option value="11-50">11-50 employees</option>
+                <option value="51-200">51-200 employees</option>
+                <option value="201-500">201-500 employees</option>
+                <option value="500+">500+ employees</option>
+            </select>
+        </div>
+
+        <div class="questionnaire-item">
+            <label for="current-systems">4. What software systems or platforms are you currently using in your business?</label>
+            <textarea id="current-systems" name="current_systems" rows="4" placeholder="List any software, platforms, or tools you use" required></textarea>
+        </div>
+
+        <div class="questionnaire-item">
+            <label for="business-challenges">5. What specific business challenges or goals are you aiming to address with software solutions?</label>
+            <textarea id="business-challenges" name="business_challenges" rows="4" placeholder="Describe your business challenges or objectives" required></textarea>
+        </div>
+
+        <div class="questionnaire-item">
+            <label for="desired-outcomes">6. What are the key outcomes or improvements you hope to achieve through our software solutions?</label>
+            <textarea id="desired-outcomes" name="desired_outcomes" rows="4" placeholder="Describe the desired outcomes or success metrics" required></textarea>
+        </div>
+
+        <div class="questionnaire-item">
+            <label for="budget-range">7. What is your budget range for this project?</label>
+            <select id="budget-range" name="budget_range" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="less-than-5000">Less than $5,000</option>
+                <option value="5000-10000">$5,000 - $10,000</option>
+                <option value="10000-50000">$10,000 - $50,000</option>
+                <option value="50000-100000">$50,000 - $100,000</option>
+                <option value="100000+">More than $100,000</option>
+            </select>
+        </div>
+
+        <div class="questionnaire-item">
+            <label for="services-needed">8. Which of our services are you most interested in?</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="services_needed[]" value="Custom Software Development"> Custom Software Development</label>
+                <label><input type="checkbox" name="services_needed[]" value="System Integration"> System Integration</label>
+                <label><input type="checkbox" name="services_needed[]" value="Data Analytics"> Data Analytics & Reporting</label>
+                <label><input type="checkbox" name="services_needed[]" value="Mobile App Development"> Mobile App Development</label>
+                <label><input type="checkbox" name="services_needed[]" value="Cloud Solutions"> Cloud Solutions</label>
+                <label><input type="checkbox" name="services_needed[]" value="Other"> Other</label>
+            </div>
+        </div>
+
+        <div class="questionnaire-item">
+            <label for="timeline">9. What is your expected timeline for the project?</label>
+            <select id="timeline" name="timeline" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="less-than-1-month">Less than 1 month</option>
+                <option value="1-3-months">1-3 months</option>
+                <option value="3-6-months">3-6 months</option>
+                <option value="6-months+">More than 6 months</option>
+            </select>
+        </div>
+
+        <div class="questionnaire-item">
+            <label for="contact-preference">10. What is your preferred method of contact?</label>
+            <select id="contact-preference" name="contact_preference" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="email">Email</option>
+                <option value="phone">Phone</option>
+                <option value="video-conference">Video Conference</option>
+                <option value="in-person">In-person</option>
+            </select>
+        </div>
+
+        <div class="questionnaire-item">
+            <label for="additional-info">11. Is there any additional information you would like to provide about your business or project?</label>
+            <textarea id="additional-info" name="additional_info" rows="4" placeholder="Any additional information"></textarea>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<section id="project-questionnaire">
+    <h1>Tell Us About Your Project</h1>
+    <form action="submit_project_questionnaire.php" method="post">
+
+        <div class="questionnaire-item">
+            <label for="project-name">1. What is the name or title of your project?</label>
+            <input type="text" id="project-name" name="project_name" placeholder="Enter your project name" required>
+        </div>
+
+        <div class="questionnaire-item">
+            <label for="project-description">2. Can you briefly describe the main objectives and goals of your project?</label>
+            <textarea id="project-description" name="project_description" rows="4" placeholder="Describe the project's objectives and goals" required></textarea>
+        </div>
+
+        <div class="questionnaire-item">
+            <label for="target-audience">3. Who is the target audience or end-user for this project?</label>
+            <textarea id="target-audience" name="target_audience" rows="4" placeholder="Describe the primary users or customers" required></textarea>
+        </div>
+
+        <div class="questionnaire-item">
+            <label for="features-requirements">4. What are the key features or functionalities you would like to include in this project?</label>
+            <textarea id="features-requirements" name="features_requirements" rows="4" placeholder="List the key features or functionalities required" required></textarea>
+        </div>
+
+        <div class="questionnaire-item">
+            <label for="platforms">5. Which platforms or devices should the project be compatible with?</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="platforms[]" value="Web"> Web</label>
+                <label><input type="checkbox" name="platforms[]" value="iOS"> iOS</label>
+                <label><input type="checkbox" name="platforms[]" value="Android"> Android</label>
+                <label><input type="checkbox" name="platforms[]" value="Desktop"> Desktop</label>
+                <label><input type="checkbox" name="platforms[]" value="Other"> Other</label>
+            </div>
+        </div>
+
+        <div class="questionnaire-item">
+            <label for="data-needs">6. Will your project involve handling or analyzing data? If so, what are your specific data needs?</label>
+            <textarea id="data-needs" name="data_needs" rows="4" placeholder="Describe your data requirements or analysis needs"></textarea>
+        </div>
+
+        <div class="questionnaire-item">
+            <label for="design-preference">7. Do you have any specific design preferences or brand guidelines that need to be followed?</label>
+            <textarea id="design-preference" name="design_preference" rows="4" placeholder="Describe any design preferences or brand guidelines"></textarea>
+        </div>
+
+        <div class="questionnaire-item">
+            <label for="integration-requirements">8. Are there any existing systems or software that need to be integrated with this project?</label>
+            <textarea id="integration-requirements" name="integration_requirements" rows="4" placeholder="List any systems or software for integration"></textarea>
+        </div>
+
+        <div class="questionnaire-item">
+            <label for="project-budget">9. What is your budget range for this project?</label>
+            <select id="project-budget" name="project_budget" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="less-than-5000">Less than $5,000</option>
+                <option value="5000-10000">$5,000 - $10,000</option>
+                <option value="10000-50000">$10,000 - $50,000</option>
+                <option value="50000-100000">$50,000 - $100,000</option>
+                <option value="100000+">More than $100,000</option>
+            </select>
+        </div>
+
+        <div class="questionnaire-item">
+            <label for="project-timeline">10. What is your expected timeline for completing this project?</label>
+            <select id="project-timeline" name="project_timeline" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="less-than-1-month">Less than 1 month</option>
+                <option value="1-3-months">1-3 months</option>
+                <option value="3-6-months">3-6 months</option>
+                <option value="6-months+">More than 6 months</option>
+            </select>
+        </div>
+
+        <div class="questionnaire-item">
+            <label for="contact-method">11. What is your preferred method of contact?</label>
+            <select id="contact-method" name="contact_method" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="email">Email</option>
+                <option value="phone">Phone</option>
+                <option value="video-conference">Video Conference</option>
+                <option value="in-person">In-person</option>
+            </select>
+        </div>
+
+        <div class="questionnaire-item">
+            <label for="additional-comments">12. Is there any additional information you would like to provide about your project?</label>
+            <textarea id="additional-comments" name="additional_comments" rows="4" placeholder="Any additional details or comments"></textarea>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+    </section>
+</section>
+
+
+    <footer>
+        <p>&copy; 2024 NEIVY. All rights reserved.</p>
+    </footer>
+   
+    <script src="collapsible.js"></script>
+</body>
+</html>
+            		
